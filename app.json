@@ -2,7 +2,7 @@
   "expo": {
     "name": "Zorra dos Balões",
     "slug": "zorra-dos-baloes",
-    "version": "1.2",
+    "version": "1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,16 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "com.nextstep.baloeszuada",
+      "bundleIdentifier": "com.nextstep.zorradosbaloes",
       "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
-      "permissions":["MODIFY_AUDIO_SETTINGS","RECORD_AUDIO", "SYSTEM_ALERT_WINDOW", "VIBRATE","WRITE_EXTERNAL_STORAGE"],
-      "package": "com.nextstep.baloeszuada",
-      "versionCode": 4,
+      "permissions":["MODIFY_AUDIO_SETTINGS","RECORD_AUDIO", "SYSTEM_ALERT_WINDOW", "VIBRATE"],
+      "package": "com.nextstep.zorradosbaloes",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
