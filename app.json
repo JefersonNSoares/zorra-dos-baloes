@@ -22,6 +22,9 @@
       "supportsTablet": true
     },
     "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713" 
+      },
       "permissions":["MODIFY_AUDIO_SETTINGS","RECORD_AUDIO", "SYSTEM_ALERT_WINDOW", "VIBRATE"],
       "package": "com.nextstep.zorradosbaloes",
       "versionCode": 1,
@@ -29,9 +32,13 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       }
+      
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-ads-admob"
+    ]
   }
 }

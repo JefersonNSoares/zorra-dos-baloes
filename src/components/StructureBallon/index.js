@@ -46,22 +46,28 @@ export function StructureBallon() {
         <View style={styles.container}>
             <View style={styles.backBallon}>
                 <TouchableOpacity onPress={playSound}>
-                    <ButtonBalloon caminhoImage={require('../../assets/lottieFiles/balloonRed.json')}/>
+                    <ButtonBalloon 
+                        caminhoImage={require('../../assets/lottieFiles/86274-red-balloon.json')}
+                        />
                 </TouchableOpacity>
             </View>
             <View style={styles.backBallon}>
                 <TouchableOpacity onPress={playSound}>
-                    <ButtonBalloon caminhoImage={require('../../assets/lottieFiles/balloon.json')}/>
+                    <ButtonBalloon 
+                        caminhoImage={require('../../assets/lottieFiles/blu-balloon.json')}
+                        />
                 </TouchableOpacity>
             </View>
             <View style={styles.backBallon}>
                 <TouchableOpacity onPress={playSound}>
-                    <ButtonBalloon caminhoImage={require('../../assets/lottieFiles/balloonPurple.json')}/>
+                    <ButtonBalloon 
+                    caminhoImage={require('../../assets/lottieFiles/green-balloon.json')}/>
                 </TouchableOpacity>
             </View>
             <View style={styles.backBallon}>
                 <TouchableOpacity onPress={playSound}>
-                    <ButtonBalloon caminhoImage={require('../../assets/lottieFiles/balloonBlue.json')}/>
+                    <ButtonBalloon 
+                    caminhoImage={require('../../assets/lottieFiles/yellow-ballon.json')}/>
                 </TouchableOpacity>
             </View>
         </View>
