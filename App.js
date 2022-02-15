@@ -1,8 +1,5 @@
-import {Routes} from './src/Routes/Routes';
-
+import { Routes } from "./src/Routes/Routes";
 
 export default function App() {
-  return (
-    <Routes/>
-  );
+  return <Routes />;
 }
