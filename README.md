@@ -12,7 +12,8 @@ Principais bibliotecas utilizadas:
 
 * lottie-react-native
 * react-navigation/native 
-* expo-ads-admob    
+* expo-ads-admob 
+* react-native-app-intro-slider   
 
 A principal branche deste projeto é a master.
 
